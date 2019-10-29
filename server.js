@@ -176,7 +176,7 @@ app.post('^/brewery/info/:breweryid/:beertype', getBreweryInfoWithBeerType);
 // app.post('/*', handleCAISync);
 
 
-const port = 8080;
+const port = process.env.PORT || 80;
 app.listen(port, function () {
     console.log("Server listening on port " + port);
 });
