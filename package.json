@@ -1,0 +1,19 @@
+{
+  "name": "untappdbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "author": "Franck Syren",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.0",
+    "request": "^2.88.0",
+    "url": "^0.11.0",
+    "request-promise": "^4.2.4"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "debug": "node --nolazy --inspect-brk=9229 server.js"
+  }
+}
