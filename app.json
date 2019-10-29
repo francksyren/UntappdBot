@@ -1,0 +1,5 @@
+{
+  "name": "Untappd Chatbot",
+  "description": "NodeJS server that connects to Untappd APIs",
+  "repository": "https://github.com/francksyren/UntappdBot"
+}
