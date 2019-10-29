@@ -159,7 +159,7 @@ function fallbackMessage(msg) {
     }];
 }
 
-app.use(express.static("static"));
+app.use(express.static("public"));
 app.post('^/search/brewery', searchBrewery);
 app.post('^/search/beer', searchBeer);
 app.post('^/brewery/info/:breweryid', getBreweryInfo);
