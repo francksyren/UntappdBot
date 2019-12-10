@@ -82,7 +82,7 @@ function searchBeer(req, res) {
         url: finalUrl
     }
     request(options, (error, resp, body) => {
-        console.log(error);
+        console.log("error: " + error);
 
         const data = JSON.parse(resp.body);
         const list = brewery.formatBeerList(data["response"]["beers"]);
